@@ -1,0 +1,37 @@
+name: "Melhoria"
+description: "Propor mudança com objetivo, escopo e aceite verificáveis"
+title: "feat: "
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: "Contexto"
+    validations:
+      required: true
+  - type: textarea
+    id: objective
+    attributes:
+      label: "Objetivo"
+      description: "Qual resultado observável é esperado?"
+    validations:
+      required: true
+  - type: textarea
+    id: tasks
+    attributes:
+      label: "Tarefas propostas"
+      description: "Separe o trabalho em ações verificáveis. A triagem poderá reordená-las."
+      value: "- [ ] "
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: "Critérios de aceite"
+    validations:
+      required: true
+  - type: textarea
+    id: exclusions
+    attributes:
+      label: "Fora de escopo e dependências"
+  - type: textarea
+    id: risks
+    attributes:
+      label: "Riscos e evidências esperadas"
