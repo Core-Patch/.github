@@ -1,0 +1,26 @@
+name: "Incidente operacional público"
+description: "Relato não sensível; não utilizar para incidentes de segurança"
+title: "incident: "
+body:
+  - type: markdown
+    attributes:
+      value: "**Atenção:** este formulário é público. Não relate vulnerabilidades, comprometimento de contas, dados pessoais, credenciais ou evidências sensíveis aqui. Para esses casos, use um canal privado do projeto afetado."
+  - type: textarea
+    id: summary
+    attributes:
+      label: "Resumo não sensível"
+      description: "Descreva a indisponibilidade ou falha operacional sem detalhes confidenciais."
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: "Impacto observado e ambiente"
+  - type: textarea
+    id: actions
+    attributes:
+      label: "Ações já executadas (não sensíveis)"
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Resultado esperado e evidência pública"
