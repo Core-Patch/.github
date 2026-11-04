@@ -1,0 +1,39 @@
+name: "Bug"
+description: "Relatar comportamento incorreto sem dados sensíveis"
+title: "fix: "
+body:
+  - type: markdown
+    attributes:
+      value: "Não inclua senhas, tokens, dados pessoais ou detalhes de vulnerabilidades exploráveis. Para segurança, use um canal privado apropriado."
+  - type: textarea
+    id: context
+    attributes:
+      label: "Contexto e comportamento atual"
+      description: "Descreva o defeito observado."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Comportamento esperado"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: "Passos para reproduzir"
+      description: "Inclua somente informações públicas ou sintéticas."
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: "Ambiente e versão"
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: "Critérios de aceite e evidências esperadas"
+  - type: textarea
+    id: risks
+    attributes:
+      label: "Riscos e fora de escopo"
