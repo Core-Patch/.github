@@ -1,6 +1,6 @@
 # Core & Patch
 
-**Tecnologia para construir e continuar.**
+**Tecnologia que acompanha o seu negócio.**
 
 A Core & Patch projeta, desenvolve, implanta e sustenta soluções digitais para negócios. Trabalhamos da definição do problema à operação do software, considerando o que precisa funcionar hoje e o que precisará ser mantido e evoluído depois da entrega.
 
@@ -41,6 +41,6 @@ Código privado, informações de clientes, credenciais, contratos e documentos 
 
 ---
 
-**Core & Patch — Construir para continuar.**
+**Core & Patch — Tecnologia que acompanha o seu negócio.**
 
 [GitHub](https://github.com/Core-Patch) · [RegiFlex](https://appregiflex.com.br/)
